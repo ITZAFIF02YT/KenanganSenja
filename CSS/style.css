@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1,4rem 7%;
-    background-color: rgba(1, 1, 1, 0,8);
+    background-color: rgba(1, 1, 1, 0.8);
     border-bottom: 1px solid #513c28;
     position: fixed;
     top: 0;
@@ -48,7 +48,7 @@ body {
 .navbar .navbar-nav a {
     color: #fff;
     display: inline-block;
-    font-size: 1,3rem;
+    font-size: 1.3rem;
     margin: 0 1rem;
 }
 
@@ -59,15 +59,14 @@ body {
 .navbar .navbar-nav a::after {
     content: '';
     display: block;
-    padding-bottom: 0,5rem;
-    border-bottom: 0,1rem solid var
-    (--primary);
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var (--primary);
     transform: scaleX(0);
-    transition: 0,2s linear;
+    transition: 0.2s linear;
 }
 
 .navbar.navbar-nav a:hover::after {
-    transform: scaleX(0,5);
+    transform: scaleX(0.5);
 }
 
 .navbar .navbar-extra a {
